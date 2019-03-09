@@ -1,0 +1,47 @@
+1. Initializwe Package.JSON
+
+npm init
+
+2. Install Babel
+npm i --save-dev babel-core babel-loader@7 babel-preset-env babel-preset-stage-2
+
+3. Install Webpack, Webpack-CLI, Webpack-NODE-External
+npm i --save-dev webpack webpack-cli webpack-node-externals
+
+4. Install Express
+npm i express --save
+
+*** 5. Express Configuration to handle HTTP Requests and serve Response appropriately
+
+5.1 Install Body Parser to handle streamable objects like JSON between browser and server
+
+npm i body-parser --save
+
+5.2 Install Cookier Parser to parse and set cookies in request
+
+npm i cookie-parser --save
+
+5.3 Compress response bodies for all requests that traverse through middleware
+npm install compression --save
+
+5.4 Install Helmet to secure Express Apps by setting various HTTP Headers
+npm install helmet --save
+
+5.5 Install cors  - cors is a middleware to enable CORS (Cross-origin resource sharing)
+npm i cors --save
+
+6. Install Mongoose to setup data models
+npm i mongoose --save
+
+7. Install lodash . Lodash is a java script library which provides utility function for commom programming tasks including manipulation of arrays and objects.
+npm i lodash --save
+
+8. Install JSON Webtoken
+npm install jsonwebtoken --save
+
+9. Install express-jwt -- Middleware to validate JSON Web Tokens
+npm i express-jwt --save
+
+10. babel
+For compiling React, first install the Babel React preset module as a development dependency
+npm install babel-preset-react --save-dev
