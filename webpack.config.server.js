@@ -18,11 +18,18 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.(ttf|eot|svg|gif|jpg|png)(\?[\s\S]+)?$/,
-        exclude: /node_modules/,
-        use: [ 'babel-loader',
-        'file-loader' ]
-      }
+              test: /\.jsx?$/,
+              exclude: /node_modules/,
+              use: [
+                  'babel-loader'
+              ]
+          },
+          {
+              test: /\.(ttf|eot|svg|gif|jpg|png)(\?[\s\S]+)?$/,
+              use:[
+                'file-loader'
+                  ]
+          }
     ]
   }
 }
