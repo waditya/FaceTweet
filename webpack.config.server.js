@@ -18,9 +18,10 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(ttf|eot|svg|gif|jpg|png)(\?[\s\S]+)?$/,
         exclude: /node_modules/,
-        use: [ 'babel-loader' ]
+        use: [ 'babel-loader',
+        'file-loader' ]
       }
     ]
   }
