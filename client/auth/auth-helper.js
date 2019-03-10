@@ -7,10 +7,13 @@
 
 // Save credentials on successful sign-in
 
+// SINGLETON DESIGN PATTERN IS USED HERE
+
+
 authenticate(jwt, cb) {
   if(typeof window !== "undefined")
     sessionStorage.setItem('jwt', JSON.stringify(jwt))
-    cb()
+    cb() //Callback function
 }
 
 // Retrieve credentials if signed-in
