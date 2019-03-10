@@ -8,7 +8,8 @@ class MainRouter extends Component {
       <div>
         <Switch>
           <Route exact path="/" component={Home}/>
-          </Switch>
+          <Route path="/users" component={Users} />
+        </Switch>
       </div>)
     }
 }

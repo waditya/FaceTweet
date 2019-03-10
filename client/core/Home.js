@@ -37,7 +37,9 @@ class Home extends Component {
             </Typography>
           </CardContent>
   </Card>
+  <Link to="/users">Users</Link>
   </div>
+
   )
   }
 }
