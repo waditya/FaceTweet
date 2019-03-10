@@ -87,6 +87,7 @@ const remove = (params, credentials) => {
   }).catch((err)=> {
     console.log(err);
   })
+}
 
 
   // Export the User API helper methods so that they could be imported and
