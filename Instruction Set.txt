@@ -33,7 +33,8 @@ npm i cors --save
 6. Install Mongoose to setup data models
 npm i mongoose --save
 
-7. Install lodash . Lodash is a java script library which provides utility function for commom programming tasks including manipulation of arrays and objects.
+7. Install lodash .
+Lodash is a java script library which provides utility function for common programming tasks including manipulation of arrays and objects.
 npm i lodash --save
 
 8. Install JSON Webtoken
@@ -45,3 +46,6 @@ npm i express-jwt --save
 10. babel
 For compiling React, first install the Babel React preset module as a development dependency
 npm install babel-preset-react --save-dev
+
+11. Running the app in the development mode
+npm run development
