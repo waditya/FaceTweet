@@ -15,7 +15,7 @@ export default ({markup, css}) => {
         <body style="margin:0">
           <div id="root">${markup}</div>
           <style id="jss-server-side">${css}</style>
-          <script type="text/javascript" src="/dist/bundle.js"></script>
+          <script type="text/javascript" src="/server/devBundle.js"></script>
         </body>
       </html>`
 }
